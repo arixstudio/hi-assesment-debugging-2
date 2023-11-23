@@ -61,3 +61,13 @@ body {
 .message {
   text-align: center;
 }
+
+#error-message.show {
+  display: block;
+  padding: 10px 0;
+  color: salmon;
+}
+
+#error-message.show {
+  display: block;
+}
