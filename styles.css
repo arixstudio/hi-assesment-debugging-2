@@ -62,8 +62,8 @@ body {
   text-align: center;
 }
 
-#error-message.show {
-  display: block;
+#error-message {
+  display: none;
   padding: 10px 0;
   color: salmon;
 }

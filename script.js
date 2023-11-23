@@ -33,6 +33,8 @@ async function getData() {
     errorMessageEl.textContent = `Invalid input. ${cityInputEl.value} seems not to be a real city. Be smart!`;
     errorMessageEl.classList.add("show");
     return;
+  } else {
+    errorMessageEl.classList.remove("show");
   }
 
   // We get temperatures back in Kelvin so we need to convert nto Celsius
